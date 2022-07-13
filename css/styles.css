@@ -1,0 +1,236 @@
+/* Основной цвет текста #212121 */
+/* Вторичный цвет текста #757575 */
+/* Акцент #2196F3 */
+/* Основной белый #FFFFFF */
+/*Серый фоновый #2F303A */
+/* Серый цвет #F5F4FA */
+/* черный #000000 */
+
+/* Main.css */
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --background-grey-color: #2F303A;
+    --grey-color: #F5F4FA;
+    --black-color: #000000;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+/* Логотип */
+
+.logo {
+    color: var(--black-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+/* Site-nav */
+
+.list {
+    list-style: none;
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Contacts */
+
+.link {
+    text-decoration: none;
+}
+
+.contacts .link {
+    color: var(--secondary-text-color);
+    /* text-decoration: none; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+    background-color: #2F303A;
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* Feature */
+
+.feature-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    
+}
+
+.feature-description {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+/* Our company */
+
+.company {
+    background-color: var(--grey-color);
+}
+
+.members .title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.2;
+    
+}
+
+.members-position {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    
+}
+
+/* Button */
+
+.hero-button {
+    font-family: inherit;
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+}
+
+
+/* Portfolio.css */
+
+/* button */
+
+.project-buttons {
+    font-family: inherit;
+    background-color: var(--grey-color);
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+
+    cursor: pointer;
+}
+
+.project-buttons:hover,
+.project-buttons:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+/* Our projects */
+
+.projects .title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects .product {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+/* Footer */
+
+.logo-footer {
+    color: var(--primary-white-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.footer {
+    background-color: var(--background-grey-color);
+}
+
+.address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--primary-white-color)
+}
+
+.address .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address .street {
+    color: var(--primary-white-color);
+}
+
+.address .link:hover,
+.address .link:focus {
+    color: var(--accent-color);
+}
+
+
+
+
